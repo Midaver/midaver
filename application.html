@@ -80,13 +80,20 @@
         </select>
       </div>
        <div class="mb-3">
-        <label for="guaranter-name" class="form-label">Guaranter Name</label>
-        <textarea class="form-control" id="guaranter" name="guaranter" rows="3" placeholder="Enter Your guaranter's name" required></textarea>
-      </div>
-       <div class="mb-3">
-        <label for="guaranter-name" class="form-label">Guaranter Phone Number</label>
-        <textarea class="form-control" id="guaranterss" name="guaranterss" rows="3" placeholder="Enter Your guaranter's phone number" required></textarea>
-      </div>
+  <label class="form-label">Guarantor's Full Name</label>
+  <input type="text" class="form-control" name="guarantorName" placeholder="Enter guarantor's full name" required>
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Guarantor's Phone Number</label>
+  <input type="tel" class="form-control" name="guarantorPhone" placeholder="Enter guarantor's phone number" required>
+</div>
+
+<div class="mb-3">
+  <label class="form-label">Relationship to Guarantor</label>
+  <input type="text" class="form-control" name="guarantorRelationship" placeholder="e.g., parent, colleague, friend" required>
+</div>
+
       <div class="mb-3">
         <label for="reason" class="form-label">Reason for Loan</label>
         <textarea class="form-control" id="reason" name="reason" rows="3" placeholder="Briefly explain why you need this loan" required></textarea>
@@ -128,15 +135,20 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <p><strong>Loan Agreement Summary</strong></p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Integer imperdiet...</p>
-        <p>By applying for a loan with Midaver Investments, you acknowledge that:</p>
+        <p><strong>Midaver Investments Loan Terms (Nairobi, Kenya)</strong></p>
+        <p>By submitting this loan application, you agree to the following:</p>
         <ul>
-          <li>You understand the loan terms.</li>
-          <li>You will repay the loan under the agreed schedule.</li>
-          <li>Late payments may incur penalties.</li>
+          <li>You are a Kenyan resident aged 18 years or older.</li>
+          <li>All information provided in this application is true and complete.</li>
+          <li>Loan approval is subject to assessment and creditworthiness.</li>
+          <li>Loan repayment shall be made via M-Pesa Paybill or direct bank deposit on the agreed schedule.</li>
+          <li>Defaulted loans will attract a daily penalty as per our policy.</li>
+          <li>Persistent default may lead to blacklisting with CRB and legal recovery actions.</li>
+          <li>You authorize Midaver Investments to contact your guarantor(s) and employer for verification if necessary.</li>
+          <li>Guarantors listed will be held financially responsible in case of loan default.</li>
         </ul>
-        <p>For full legal details, contact our office.</p>
+        <p><strong>Repayment Deadline:</strong> As agreed in the contract, typically weekly or monthly depending on loan type.</p>
+        <p>For clarifications, please visit our offices at King Plaza or contact +254 101616166.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
