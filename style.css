@@ -108,7 +108,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('images/kenyanhustler.png') cover no-repeat;
+  background: url('images/profit.jpg') center/cover no-repeat;
   z-index: 1;
 }
 
